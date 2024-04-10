@@ -24,8 +24,6 @@ public class App
         user.addAuto(ford);
 
         userService.update(user);
-
-        userService.;
        // userService.delete(user);
     }
 }

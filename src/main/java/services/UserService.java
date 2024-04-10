@@ -31,8 +31,6 @@ public class UserService {
     public Auto findAutoById(int id) {
         return userDao.findAutoById(id);
     }
-    public List<Auto> findAutoByName(String name) {
-        return userDao.findAutoByName(name);
-    }
+
 
 }
